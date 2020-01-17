@@ -1,1 +1,17 @@
-<p>repo-search works!</p>
+<div class="card">
+    <div class="card-title">
+        <p>Search Github Repositories</p>
+    </div>
+
+    <div class="card-body">
+        <form>
+            <input type="text" placeholder="TypeRepo Name" aria-label="Search" name="searchTerm"
+                [(ngModel)]="searchTerm">
+            <br>
+            <br>
+            <br>
+            
+            <button type="submit" class="btn btn-light-red" (click) ="search()">Search Repositories!</button>
+        </form>
+    </div>
+</div>
