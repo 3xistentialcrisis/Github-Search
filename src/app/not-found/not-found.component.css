@@ -1,12 +1,16 @@
+body{
+    font-family: monospace;
+}
 h1{
     color: red;
-    margin-left: 6.8in;
-    font-size: xx-large;
+    margin-left: 6.4in;
+    font-size: 50px;
+    
 }
 
 p{
     text-emphasis: none;
-    margin-left: 4.4in;
+    margin-left: 4.3in;
     font-size: large;
-    font-family: monospace;
+    /* font-family: monospace; */
 }
