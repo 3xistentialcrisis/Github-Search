@@ -1,1 +1,35 @@
-<p>repo works!</p>
+<div class="container-fluid">
+    <app-repo-search (emitSearch)="searchUser($event)" (emitSearch)="getRepos($event)"></app-repo-search>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title"> User: {{users.login}}</h1>
+                    <img class="card-img-top product-image" src="{{users.avatar_url}}" alt="User's avatar">
+                    <p class="card-text">User ID: {{users.id}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div *ngIf="repos">
+    <h2>Repositories</h2>
+    <div class="card-columns">
+        <div *ngFor="let repo of repos">
+            <div class="card">
+                <!-- Card image -->
+                <div class="view view-cascade gradient-card-header purple-gradient">
+
+                    <!-- Title -->
+                    <h3 class="card-header-title"> {{repo.name }}</h3>
+                    <!-- Subtitle -->
+                    <h4 class="mb-0 pb-3 pt-2"> {{repo.description}} </h4>
+
+                    <h5 class="mb-0 pb-3 pt-2"> {{repo.html_url}} </h5>
+                    <h6 class="mb-0 pb-3 pt-2"> {{repo.created_at | date }} </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
