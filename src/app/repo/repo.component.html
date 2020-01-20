@@ -13,8 +13,12 @@
     </div>
 </div>
 
+<br><br><br>
+
 <div *ngIf="repos">
     <h2>Repositories</h2>
+    <br><br>
+
     <div class="card-columns">
         <div *ngFor="let repo of repos">
             <div class="card">
@@ -26,11 +30,10 @@
                     <!-- Subtitle -->
                     <h4 class="mb-0 pb-3 pt-2"> {{repo.description}} </h4>
 
-                    <h5 class="mb-0 pb-3 pt-2"> {{repo.html_url}} </h5>
+                    <h5 class="mb-0 pb-3 pt-2"><a>{{repo.html_url}}</a> </h5>
                     <h6 class="mb-0 pb-3 pt-2"> {{repo.created_at | date }} </h6>
-                </div>
             </div>
         </div>
     </div>
 </div>
-
+</div>

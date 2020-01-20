@@ -17,8 +17,8 @@ export class RepoComponent implements OnInit {
   constructor(public userHttpService: UsersHttpServiceService) { }
 
   ngOnInit() {
-    this.searchUser('robertmuthuri');
-    this.getRepos('robertmuthuri');
+    this.searchUser('3xistentialcrisis');
+    this.getRepos('3xistentialcrisis');
   }
 
   searchUser(searchTerm) {

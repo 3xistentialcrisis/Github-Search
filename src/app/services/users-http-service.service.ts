@@ -68,7 +68,6 @@ export class UsersHttpServiceService {
           console.log(repoResults);
 
           this.repos = [];
-          // console.log(this.repos);
 
           for (let i = 0; i < repoResults.length; i++) {
             let repo = new RepoClass(repoResults[i].name, repoResults[i].description, repoResults[i].html_url, repoResults[i].created_at);

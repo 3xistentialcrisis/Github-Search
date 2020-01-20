@@ -14,16 +14,18 @@ export class UserComponent implements OnInit {
   constructor(public usersHttpService: UsersHttpServiceService) { }
 
 
-  searchUser(searchTerm) {
+    searchUser(searchTerm) {
 
-    this.usersHttpService.searchUsers(searchTerm).then(
-      (success) => {
-        this.users = this.usersHttpService.user;
-      },
-      (error) => {
-        console.log(error);
-      }
-    );
-  }
+      this.usersHttpService.searchUsers(searchTerm).then(
+        (success) => {
+          this.users = this.usersHttpService.user;
+        },
+        (error) => {
+          console.log(error);
+        }
+      );
+    }
 
-  ngOnInit() { this.searchUser('3xistentialcrisis'); }
+  ngOnInit() { this.searchUser( 'robertmuthuri'); }
+
+}

@@ -5,3 +5,34 @@ body{
     font-family: monospace;
     background-color:rgb(60, 21, 153);
 }
+
+.navbar-brand{
+    margin-left: 6.6in;
+}
+
+h1{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+h2{
+    color: white;
+    margin-left: 4.5in;
+}
+
+.card-header-title{
+    color:white;
+}
+
+h5{
+    color: blue;
+}
+
+/* .card-body{
+    block-size: 3in;
+} */
+
+/* img{
+    width: 2in;
+    height: 2in;
+} */

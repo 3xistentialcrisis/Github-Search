@@ -1,27 +1,31 @@
-# GithubSearch
+# Github Search
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+By Wanjiku Karanja
 
-## Development server
+## Description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This application enables users to: enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. It also enables users to search for repositories.
 
-## Code scaffolding
+## Installation Requirements
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+There are no specific installation requirements for this application.
+This Application was developed with Angular CLI version 8.3.22
 
-## Build
+## Operational Requirements
+To search for a Github user/repository:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+In the search bar enter the details of the github user or repository. Click search repositories button. The user/repository details are displayed under the repositories title. Click the Github Search APP navigation  bar at the top of the page to navigate to home.
 
-## Running unit tests
+## Link to Application
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+https://3xistentialcrisis.github.io/Github-Search/ 
 
-## Running end-to-end tests
+## License
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+This work is licensed under the MIT License. Copyright (c) 2020
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+To get more help email the Administrator at admin@githubsearch.com
+
+
